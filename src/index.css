@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@media (max-width: 575px) {
+  .hide-on-small {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) {
+  .center-on-large {
+    display: flex;
+    justify-content: center;
+  }
+}
