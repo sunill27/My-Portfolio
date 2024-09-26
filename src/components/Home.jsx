@@ -53,8 +53,12 @@ const Home = () => {
                 <span className="typing libre-baskerville-bold text-green-600"></span>
               </h1>
               <p className="mt-4 sm:text-lg xs:text-md capitalize text-black">
-                Fresher full-stack developer with hands on some projects in
-                ReactJs, NodeJs experience.
+                Enthusiastic full-stack developer with hands-on experience in
+                building dynamic web applications using React.js and Node.js. I
+                have successfully completed several projects that showcase my
+                skills in both front-end and back-end development. Passionate
+                about coding and always eager to learn new technologies, I am
+                committed to delivering high-quality, user-centric solutions.
               </p>
               {/* <button className="p-2 px-6 mt-6 bg-rose-500 text-white rounded-full hover:bg-purple-500">
                 Download CV
