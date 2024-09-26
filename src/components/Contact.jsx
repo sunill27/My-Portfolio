@@ -182,16 +182,16 @@ const Contact = () => {
                   First Name
                 </label>
                 <input
-                  className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                  className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                   id="grid-first-name"
                   name="first_name"
                   type="text"
                   placeholder="first_name"
                   required
                 />
-                <p className="text-red-500 text-xs italic">
+                {/* <p className="text-red-500 text-xs italic">
                   Please fill out this field.
-                </p>
+                </p> */}
               </div>
               <div className="w-full md:w-1/2 px-3">
                 <label
@@ -206,6 +206,7 @@ const Contact = () => {
                   name="last_name"
                   type="text"
                   placeholder="last_name"
+                  required
                 />
               </div>
             </div>
@@ -241,6 +242,7 @@ const Contact = () => {
                   name="message"
                   rows="10"
                   className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  required
                 ></textarea>
               </div>
               <div className="flex justify-between w-full px-3">
