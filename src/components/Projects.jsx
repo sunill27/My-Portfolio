@@ -139,11 +139,11 @@ const Projects = () => {
                   <span>Order placement,</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <span>Payment Method</span>
+                  <span>Payment Methods</span>
                 </li>
               </ul>
               <button className="p-2 px-6 mt-2 bg-rose-500 text-white rounded-full hover:bg-purple-500">
-                <Link to="https://github.com/iamSunil57/E-Com_Website">
+                <Link to="https://github.com/sunill27/Sneakers-Store">
                   View Code
                 </Link>
               </button>
