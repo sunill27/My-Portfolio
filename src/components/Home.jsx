@@ -12,8 +12,8 @@ const Home = () => {
     script.onload = () => {
       new window.Typed(".typing", {
         strings: [
-          "Full Stack (MERN)",
-          // "Backend Developer,",
+          "Full Stack Developer(MERN)",
+          //  "Node.js Developer",
         ],
         typeSpeed: 70,
         backSpeed: 50,
@@ -49,7 +49,7 @@ const Home = () => {
                 <span className="text-rose-500"> I'm Sunil Chand</span>
               </h1>
               <h1 className="mt-4 sm:text-4xl xs:text-3xl text-black">
-                Currently Exploring...
+                I'm...
                 <span className="typing libre-baskerville-bold text-green-600"></span>
               </h1>
               <p className="mt-4 sm:text-lg xs:text-md capitalize text-black">

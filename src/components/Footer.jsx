@@ -39,7 +39,7 @@ const Footer = () => {
             </ul>
             <div className="flex  space-x-4 sm:justify-center  ">
               <Link
-                to="https://www.instagram.com/mr_sunill57"
+                to="https://www.instagram.com/mr_sunill27"
                 className="w-9 h-9 rounded-full bg-gray-800 flex justify-center items-center hover:bg-indigo-600"
               >
                 <svg

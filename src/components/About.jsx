@@ -17,10 +17,10 @@ const About = () => {
                 <span className="text-rose-500"> Sunil Chand</span>
               </h1>
               <p className="mb-6 text-black">
-                An aspiring IT student, currently pursuing my BSc.CSIT degree at
-                Amrit Campus (ASCOL). With a strong passion for technology, I am
-                committed to gaining practical experience on Web development and
-                expanding my skills.
+                I am an aspiring IT student currently pursuing a BSc.CSIT degree
+                at Amrit Campus (ASCOL). With a strong passion for technology, I
+                am eager to gain practical experience in MERN stack development
+                and continuously expand my skill set.
               </p>
               <div className="flex justify-center space-x-5">
                 <Link to="https://github.com/iamSunil57">

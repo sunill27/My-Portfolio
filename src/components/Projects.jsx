@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import medicareImage from "../assets/images/medicareImage.png";
 import ecomImage from "../assets/images/ecomImage.png";
 import lmsImage from "../assets/images/LmsImage.png";
+import dashboardImage from "../assets/images/dashboard.png";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
@@ -116,7 +117,7 @@ const Projects = () => {
 
             <div className="flex flex-col justify-beetween gap-3 px-4 py-2">
               <a className="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
-                <span>3.E-Commerce Website</span>
+                <span>3.Sneakers Store</span>
               </a>
 
               <p className="text-gray-600 two-lines">
@@ -144,6 +145,49 @@ const Projects = () => {
               </ul>
               <button className="p-2 px-6 mt-2 bg-rose-500 text-white rounded-full hover:bg-purple-500">
                 <Link to="https://github.com/sunill27/Sneakers-Store">
+                  View Code
+                </Link>
+              </button>
+            </div>
+          </li>
+          {/* ======Project Four======= */}
+          <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+            <a className="relative">
+              <img
+                className="rounded relative w-full object-cover aspect-video"
+                src={dashboardImage}
+                alt="Image"
+                loading="lazy"
+              />
+            </a>
+
+            <div className="flex flex-col justify-beetween gap-3 px-4 py-2">
+              <a className="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
+                <span>4.Admin-Dashboard</span>
+              </a>
+
+              <p className="text-gray-600 two-lines">
+                Admin dashboard with a focus on seamless user management,
+                product tracking, and real-time analytics, ensuring efficient
+                control over all aspects of the online store.
+              </p>
+
+              <ul className="flex flex-wrap text-sm gap-2 my-1">
+                <li className="flex items-center gap-2">
+                  <span>SignUp and SignIn,</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span>Product management,</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span>Order management,</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span>User management</span>
+                </li>
+              </ul>
+              <button className="p-2 px-6 mt-2 bg-rose-500 text-white rounded-full hover:bg-purple-500">
+                <Link to="https://github.com/sunill27/SneakerStore-Admin">
                   View Code
                 </Link>
               </button>
