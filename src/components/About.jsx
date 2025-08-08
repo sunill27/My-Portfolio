@@ -17,13 +17,13 @@ const About = () => {
                 <span className="text-rose-500"> Sunil Chand</span>
               </h1>
               <p className="mb-6 text-black">
-                I am an aspiring IT student currently pursuing a BSc.CSIT degree
-                at Amrit Campus (ASCOL). With a strong passion for technology, I
-                am eager to gain practical experience in MERN stack development
-                and continuously expand my skill set.
+                I am an aspiring IT aspirant recently completed a BSc.CSIT
+                degree from Amrit Campus(Tribhuvan University). With a strong
+                passion for technology, I am eager to gain practical experience
+                in MERN stack development and continuously expand my skill set.
               </p>
               <div className="flex justify-center space-x-5">
-                <Link to="https://github.com/iamSunil57">
+                <Link to="https://github.com/sunill27">
                   <button className="flex w-full items-center justify-center gap-1 rounded-2xl bg-rose-500 p-5 py-3 font-semibold text-white hover:bg-rose-700">
                     Follow
                     <svg
@@ -45,7 +45,10 @@ const About = () => {
                     </svg>
                   </button>
                 </Link>
-                <a href="/Resume.pdf" download="Resume.pdf">
+                <a
+                  href="/SunilChand_Resume.pdf"
+                  download="SunilChand_Resume.pdf"
+                >
                   <button className="flex w-full items-center justify-center gap-2 rounded-2xl bg-sky-400 p-5 py-3 font-semibold">
                     Resume
                     <svg

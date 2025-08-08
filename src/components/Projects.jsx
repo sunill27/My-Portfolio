@@ -57,7 +57,7 @@ const Projects = () => {
                 </li>
               </ul>
               <button className="p-2 px-6 mt-2 bg-rose-500 text-white rounded-full hover:bg-purple-500">
-                <Link to="https://github.com/iamSunil57/LMS">View Code</Link>
+                <Link to="https://github.com/sunill27/L.M.S">View Code</Link>
               </button>
             </div>
           </li>
@@ -97,7 +97,7 @@ const Projects = () => {
                 </li>
               </ul>
               <button className="p-2 px-6 mt-6 bg-rose-500 text-white rounded-full hover:bg-purple-500">
-                <Link to="https://github.com/iamSunil57/Medicare-Booking">
+                <Link to="https://github.com/sunill27/Medicare-Booking">
                   View Code
                 </Link>
               </button>

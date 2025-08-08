@@ -14,7 +14,7 @@ const Navbar = () => {
       <header className="lg:px-16 px-4 flex flex-wrap items-center py-4 shadow-lg">
         <div className="flex-1 flex justify-between items-center">
           <NavLink
-            to="#"
+            to="/"
             className="text-3xl font-semibold font-serif text-green-500"
           >
             Portfolio
